@@ -1,16 +1,16 @@
 package Git;
 public class Calc {
-	private double answer;
+	private double respuesta;
 	private double a;
 	private double b;
 
-	public Calc (double a, double b, double answer) {
+	public Calc (double a, double b, double respuesta) {
 		this.a=a;
 		this.b=b;
 		this.answer=answer;
 	}
 	
-	public double getAnswer() {
+	public double getRespuesta() {
 		return answer;
 	}
 	
