@@ -1,23 +1,23 @@
 package Git;
 public class Calc {
 	private double respuesta;
-	private double a;
-	private double b;
+	private double num1;
+	private double num2;
 
-	public Calc (double a, double b, double respuesta) {
-		this.a=a;
-		this.b=b;
-		this.answer=answer;
+	public Calc (double num1, double num2, double respuesta) {
+		this.num1=num1;
+		this.num2=num2;
+		this.respuesta=respuesta;
 	}
 	
 	public double getRespuesta() {
-		return answer;
+		return respuesta;
 	}
 	
-	public void setA(double a) {
-		this.a=a;
+	public void setNum1(double num1) {
+		this.num1=num1;
 	}
-    public void setB(double b) {
-		this.b=b;
+    public void setNum2(double num2) {
+		this.num2=num2;
 	}
 }
