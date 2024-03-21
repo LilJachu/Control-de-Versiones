@@ -3,12 +3,12 @@ package Git;
 public class Suma {
 	
 	private double respuesta;
-	private double a;
-	private double b;
+	private double num1;
+	private double num2;
 	
 	public double suma() {
-		double suma = a+b;
-		answer = suma;
+		double suma = num1+num2;
+		respuesta = suma;
 		return respuesta;
 	}
 }
